@@ -20,7 +20,8 @@ const translations = {
   "YOUR COLLECTION":"আপনার সংগ্রহ", "Opportunities worth keeping":"সংরক্ষণ করার মতো সুযোগ", "Find more scholarships →":"আরও বৃত্তি খুঁজুন →", "Your shortlist is ready":"আপনার তালিকা তৈরি", "Save scholarships from Finder and they will appear here.":"ফাইন্ডার থেকে বৃত্তি সংরক্ষণ করুন, এখানে দেখা যাবে।", "Explore scholarships →":"বৃত্তি দেখুন →",
   "MAKE A CLEAR CHOICE":"সঠিকটি বেছে নিন", "Select up to three scholarships from Finder to compare them side by side.":"ফাইন্ডার থেকে সর্বোচ্চ তিনটি বৃত্তি বেছে পাশাপাশি তুলনা করুন।", "SIDE BY SIDE":"পাশাপাশি তুলনা", "What matters to you?":"আপনার কাছে কোনটি গুরুত্বপূর্ণ?", "Back to Finder →":"ফাইন্ডারে ফিরুন →", "Start a comparison":"তুলনা শুরু করুন", "Choose up to three scholarships in Finder, then compare their requirements and details here.":"ফাইন্ডারে সর্বোচ্চ তিনটি বৃত্তি বেছে নিন, তারপর এখানে শর্ত ও বিবরণ তুলনা করুন।", "Open Finder →":"ফাইন্ডার খুলুন →", "Details":"বিবরণ", "Amount":"অর্থের পরিমাণ", "Minimum CGPA":"সর্বনিম্ন সিজিপিএ", "Department":"বিভাগ", "Need based":"আর্থিক প্রয়োজনভিত্তিক", "Yes":"হ্যাঁ", "No":"না", "Deadline":"শেষ তারিখ", "Description":"বিবরণ",
   "A PLAN FOR YOUR NEXT STEP":"পরবর্তী ধাপের পরিকল্পনা", "Eligibility":"যোগ্যতা", "gap analyzer":"ব্যবধান বিশ্লেষক", "See exactly what is missing, including CGPA distance, and focus on the scholarships you can work toward.":"সিজিপিএসহ কোন শর্তগুলো বাকি তা দেখুন এবং যেসব বৃত্তির জন্য প্রস্তুতি নিতে পারবেন সেগুলোতে মনোযোগ দিন।", "BASED ON YOUR PROFILE":"আপনার প্রোফাইল অনুযায়ী", "Your gap, made clear.":"যোগ্যতার ব্যবধান স্পষ্টভাবে দেখুন।", "Update my profile →":"প্রোফাইল আপডেট করুন →", "Opportunities analyzed":"বিশ্লেষণ করা সুযোগ", "Already eligible":"ইতিমধ্যে যোগ্য", "Within reach":"কাছাকাছি সুযোগ", "NEXT BEST STEPS":"পরবর্তী পদক্ষেপ", "Requirements to work toward":"যে শর্তগুলো পূরণে কাজ করবেন", "Show":"দেখান", "All gaps":"সব ব্যবধান", "Within 0.25 CGPA":"০.২৫ সিজিপিএর মধ্যে", "Department gaps":"বিভাগের শর্ত", "No gaps match this filter":"এই ফিল্টারে কোনো ব্যবধান নেই", "Try another filter or update your profile.":"অন্য ফিল্টার দিন বা প্রোফাইল আপডেট করুন।", "CGPA gap":"সিজিপিএ ব্যবধান", "No CGPA gap":"সিজিপিএ ব্যবধান নেই", "Raise CGPA by":"সিজিপিএ বাড়াতে হবে", "Saved for later.":"পরে দেখার জন্য সংরক্ষিত।",
-  "ScholarSearch assistant":"ScholarSearch সহায়ক", "Answers from your scholarship list":"আপনার বৃত্তির তালিকা থেকে উত্তর দেয়", "Hi! Ask me about matches, eligibility, deadlines, or a scholarship by name.":"মিল, যোগ্যতা, শেষ তারিখ বা বৃত্তির নাম সম্পর্কে প্রশ্ন করুন।", "Ask about scholarships…":"বৃত্তি সম্পর্কে জিজ্ঞাসা করুন…", "Ask ScholarSearch":"ScholarSearch-কে জিজ্ঞাসা করুন",
+  "ScholarSearch assistant":"ScholarSearch সহায়ক", "Answers from your scholarship list":"আপনার বৃত্তির তালিকা থেকে উত্তর দেয়", "AI-powered · grounded in your scholarship list":"এআই-চালিত · বৃত্তির তালিকাভিত্তিক", "Hi! Ask me about matches, eligibility, deadlines, or a scholarship by name.":"মিল, যোগ্যতা, শেষ তারিখ বা বৃত্তির নাম সম্পর্কে প্রশ্ন করুন।", "Hi! Ask me about matches, eligibility, deadlines, funding, or a scholarship by name. I use your profile and the live scholarship catalogue.":"মিল, যোগ্যতা, শেষ তারিখ, অর্থায়ন বা বৃত্তির নাম জিজ্ঞাসা করুন। আমি আপনার প্রোফাইল ও লাইভ বৃত্তির তালিকা ব্যবহার করি।", "Ask about scholarships…":"বৃত্তি সম্পর্কে জিজ্ঞাসা করুন…", "Ask ScholarSearch":"ScholarSearch-কে জিজ্ঞাসা করুন", "Matches for me":"আমার মিল", "Upcoming deadlines":"আসন্ন শেষ তারিখ", "Improve eligibility":"যোগ্যতা উন্নত করুন",
+
   "Dashboard":"ড্যাশবোর্ড", "YOUR SCHOLARSHIP JOURNEY":"আপনার বৃত্তির যাত্রা", "Welcome back, ":"আবার স্বাগতম, ", "Your student dashboard brings your next steps together.":"আপনার শিক্ষার্থী ড্যাশবোর্ডে পরবর্তী পদক্ষেপগুলো একসাথে পাবেন।", "Find scholarships":"বৃত্তি খুঁজুন", "Current matches":"বর্তমান মিল", "based on your profile":"আপনার প্রোফাইল অনুযায়ী", "Saved scholarships":"সংরক্ষিত বৃত্তি", "in your personal shortlist":"আপনার ব্যক্তিগত তালিকায়", "Comparing":"তুলনা করছেন", "of 3 side-by-side slots":"পাশাপাশি তুলনার ৩টির মধ্যে", "Profile CGPA":"প্রোফাইলের সিজিপিএ", "set your department":"বিভাগ নির্বাচন করুন", "YOUR WORKSPACE":"আপনার কর্মক্ষেত্র", "Plan your next move":"পরবর্তী পদক্ষেপ ঠিক করুন", "All your tools, in one place":"সব সরঞ্জাম এক জায়গায়", "DISCOVER":"খুঁজুন", "Scholarship finder":"বৃত্তি অনুসন্ধান", "See awards matched to your CGPA, department and interests.":"সিজিপিএ, বিভাগ ও আগ্রহের সঙ্গে মেলা বৃত্তি দেখুন।", "Explore matches":"মিলগুলো দেখুন", "YOUR SHORTLIST":"আপনার সংরক্ষিত তালিকা", "Bookmarks":"সংরক্ষিত বৃত্তি", "Keep promising scholarships close and revisit them anytime.":"সম্ভাবনাময় বৃত্তি সংরক্ষণ করুন এবং যেকোনো সময় ফিরে দেখুন।", "View saved awards":"সংরক্ষিত বৃত্তি দেখুন", "YOUR NEXT STEP":"আপনার পরবর্তী পদক্ষেপ", "Eligibility gap analyzer":"যোগ্যতার ব্যবধান বিশ্লেষক", "Understand what is missing and how far you are from qualifying.":"কোন শর্তগুলো বাকি এবং যোগ্য হতে কতটা দূর তা জানুন।", "See your opportunities":"সুযোগগুলো দেখুন", "DECIDE WITH CONFIDENCE":"নিশ্চিতভাবে সিদ্ধান্ত নিন", "Compare scholarships":"বৃত্তি তুলনা", "Compare up to three awards, requirements and deadlines side by side.":"সর্বোচ্চ তিনটি বৃত্তির শর্ত ও শেষ তারিখ পাশাপাশি তুলনা করুন।", "Open comparison":"তুলনা খুলুন", "A GOOD PLACE TO START":"শুরু করার ভালো জায়গা", "Matched for your profile":"আপনার প্রোফাইলের সঙ্গে মিলেছে", "See all matches →":"সব মিল দেখুন →", "Need a hand?":"সাহায্য দরকার?", "Ask a question →":"প্রশ্ন করুন →", "No matches yet":"এখনো কোনো মিল নেই", "Update your CGPA or profile preferences in Finder to explore more awards.":"আরও বৃত্তি দেখতে ফাইন্ডারে সিজিপিএ বা পছন্দ আপডেট করুন।", "Update profile →":"প্রোফাইল আপডেট করুন →",
   "🌐️ English":"🇬🇧 English", "🌐️ বাংলা":"🇧🇩 বাংলা", "🇬🇧 English":"🇬🇧 English", "🇧🇩 বাংলা":"🇧🇩 বাংলা", "☀️ Light":"☀️ হালকা", "◐️ Dark":"◐️ গাঢ়", "🌙 Night":"🌙 রাতের থিম",
   "Your profile":"আপনার প্রোফাইল", "CGPA":"সিজিপিএ", "CGPA help":"আপনার সিজিপিএ লিখুন। এর ভিত্তিতে আপনার জন্য উপযুক্ত ও কাছাকাছি বৃত্তিগুলো দেখানো হবে।", "Department":"বিভাগ", "Gender":"লিঙ্গ",
@@ -93,6 +94,12 @@ Object.assign(translations, {
   "We could not process the request right now. Please try again later.":"এই মুহূর্তে অনুরোধটি সম্পন্ন করা যায়নি। পরে আবার চেষ্টা করুন।",
   "We could not update your password right now. Please try again.":"এই মুহূর্তে পাসওয়ার্ড আপডেট করা যায়নি। আবার চেষ্টা করুন।"
 });
+Object.assign(translations, {
+  "Added to saved scholarships":"সংরক্ষিত বৃত্তিতে যোগ হয়েছে", "Removed from saved scholarships":"সংরক্ষিত বৃত্তি থেকে সরানো হয়েছে",
+  "Added to comparison":"তুলনার তালিকায় যোগ হয়েছে", "Removed from comparison":"তুলনার তালিকা থেকে সরানো হয়েছে",
+  "Scholarship shortcuts":"বৃত্তির শর্টকাট", "Range: 2.00–4.00":"সীমা: ২.০০–৪.০০",
+  "Enter a CGPA from 2.00 to 4.00.":"সিজিপিএ ২.০০ থেকে ৪.০০-এর মধ্যে লিখুন।"
+});
 const sourceTextNodes = new WeakMap();
 const translate = (value) => isBangla() && Object.prototype.hasOwnProperty.call(translations, value) ? translations[value] : value;
 
@@ -141,6 +148,9 @@ function applyPreferences() {
     if (!el.dataset.originalPlaceholder) el.dataset.originalPlaceholder = el.placeholder;
     el.placeholder = translate(el.dataset.originalPlaceholder);
   });
+  const cgpaHint = document.getElementById("cgpaRangeHint");
+  if (cgpaHint) cgpaHint.textContent = translate(document.getElementById("cgpaNumber")?.getAttribute("aria-invalid") === "true" ? "Enter a CGPA from 2.00 to 4.00." : "Range: 2.00–4.00");
+  updateSelectionShortcuts();
 }
 
 function bindPreferences() {
@@ -320,7 +330,8 @@ function profilePanelHTML() {
     <h2>Your profile</h2>
     <p class="cgpa-help">CGPA helps us compare your academic result with each scholarship requirement.</p>
     <label>CGPA <span class="cgpa-val" id="cgpaVal">${profile.cgpa.toFixed(2)}</span></label>
-    <div class="cgpa-input-row"><input type="range" min="2" max="4" step="0.01" value="${profile.cgpa}" id="cgpa" /><input type="number" min="2" max="4" step="0.01" value="${profile.cgpa.toFixed(2)}" id="cgpaNumber" aria-label="Enter CGPA" /></div>
+    <div class="cgpa-input-row"><input type="range" min="2" max="4" step="0.01" value="${profile.cgpa}" id="cgpa" aria-label="Adjust CGPA" /><input type="text" inputmode="decimal" enterkeyhint="done" autocomplete="off" autocapitalize="off" spellcheck="false" maxlength="5" value="${profile.cgpa.toFixed(2)}" id="cgpaNumber" aria-label="Enter CGPA from 2.00 to 4.00" aria-describedby="cgpaRangeHint" aria-invalid="false" /></div>
+    <small id="cgpaRangeHint" class="cgpa-range-hint" data-live="true">Range: 2.00–4.00</small>
     <label>Department</label>
     <div class="chips" id="deptChips">${deptBtns}</div>
     <label>Gender</label>
@@ -342,19 +353,62 @@ function profilePanelHTML() {
 function bindProfileControls(onChange) {
   const cgpa = document.getElementById("cgpa");
   const cgpaNumber = document.getElementById("cgpaNumber");
-  const updateCgpa = (value, immediate = false) => {
-    const n = Math.min(4, Math.max(2, Number(value) || 2));
+  const cgpaLabel = document.getElementById("cgpaVal");
+  const cgpaHint = document.getElementById("cgpaRangeHint");
+  const setCgpaError = (invalid) => {
+    if (cgpaNumber) {
+      cgpaNumber.setAttribute("aria-invalid", String(invalid));
+      cgpaNumber.classList.toggle("is-invalid", invalid);
+    }
+    if (cgpaHint) {
+      cgpaHint.classList.toggle("is-invalid", invalid);
+      cgpaHint.textContent = translate(invalid ? "Enter a CGPA from 2.00 to 4.00." : "Range: 2.00–4.00");
+    }
+  };
+  const updateCgpaValue = (value, updateText, immediate = false) => {
+    const n = Number(value);
+    if (!Number.isFinite(n)) return;
     profile.cgpa = n;
     if (cgpa) cgpa.value = n;
-    if (cgpaNumber) cgpaNumber.value = n.toFixed(2);
-    const el = document.getElementById("cgpaVal"); if (el) el.textContent = n.toFixed(2);
+    if (updateText && cgpaNumber) cgpaNumber.value = n.toFixed(2);
+    if (cgpaLabel) cgpaLabel.textContent = n.toFixed(2);
     saveProfile();
-    if (immediate) onChange(); else scheduleResults(onChange);
+    if (immediate) flushScheduledResults(onChange); else scheduleResults(onChange, 180);
   };
-  if (cgpa) cgpa.addEventListener("input", () => updateCgpa(cgpa.value));
-  if (cgpaNumber) cgpaNumber.addEventListener("input", () => updateCgpa(cgpaNumber.value));
-  if (cgpaNumber) cgpaNumber.addEventListener("change", () => updateCgpa(cgpaNumber.value, true));
+  const normalizeCgpa = value => value
+    .replace(/[০-৯]/g, digit => String("০১২৩৪৫৬৭৮৯".indexOf(digit)))
+    .replace(/[,.٫،]/g, ".");
+  const commitCgpaText = () => {
+    if (!cgpaNumber) return;
+    const raw = normalizeCgpa(cgpaNumber.value.trim());
+    if (!raw) {
+      cgpaNumber.value = profile.cgpa.toFixed(2);
+      setCgpaError(false);
+      flushScheduledResults(onChange);
+      return;
+    }
+    if (!/^\d(?:\.\d{0,2})?$/.test(raw) || Number(raw) < 2 || Number(raw) > 4) {
+      setCgpaError(true);
+      return;
+    }
+    setCgpaError(false);
+    const n = Number(raw);
+    updateCgpaValue(n, true, true);
+  };
+  if (cgpa) cgpa.addEventListener("input", () => { setCgpaError(false); updateCgpaValue(cgpa.value, true); });
   if (cgpa) cgpa.addEventListener("change", () => flushScheduledResults(onChange));
+  if (cgpaNumber) cgpaNumber.addEventListener("input", () => {
+    const raw = normalizeCgpa(cgpaNumber.value.trim());
+    if (!raw) { setCgpaError(false); return; }
+    if (!/^\d(?:\.\d{0,2})?$/.test(raw) || Number(raw) < 2 || Number(raw) > 4) { setCgpaError(true); return; }
+    setCgpaError(false);
+    updateCgpaValue(Number(raw), false);
+  });
+  if (cgpaNumber) {
+    cgpaNumber.addEventListener("focus", () => window.requestAnimationFrame(() => cgpaNumber.select()));
+    cgpaNumber.addEventListener("blur", commitCgpaText);
+    cgpaNumber.addEventListener("keydown", event => { if (event.key === "Enter") { event.preventDefault(); cgpaNumber.blur(); } });
+  }
   document.querySelectorAll("[data-dept]").forEach(btn => btn.addEventListener("click", () => {
     profile.department = btn.dataset.dept;
     document.querySelectorAll("[data-dept]").forEach(chip => {
@@ -403,13 +457,75 @@ function bindDetailsButtons(root) {
   });
 }
 
+function updateSelectionShortcuts() {
+  const shortcuts = document.getElementById("selectionShortcuts");
+  if (shortcuts) shortcuts.setAttribute("aria-label", translate("Scholarship shortcuts"));
+  const savedCount = document.getElementById("savedShortcutCount");
+  const compareCount = document.getElementById("compareShortcutCount");
+  const format = value => Number(value).toLocaleString(isBangla() ? "bn-BD" : "en-US");
+  if (savedCount) savedCount.textContent = format(savedIds.size);
+  if (compareCount) compareCount.textContent = `${format(compareIds.size)} / ${isBangla() ? "৩" : "3"}`;
+  const savedLink = document.querySelector(".saved-shortcut");
+  if (savedLink) savedLink.setAttribute("aria-label", `${translate("View saved awards")}: ${format(savedIds.size)}`);
+  const compareLink = document.querySelector(".compare-shortcut");
+  if (compareLink) compareLink.setAttribute("aria-label", `${translate("Open comparison")}: ${format(compareIds.size)}`);
+}
+
+function ensureSelectionShortcuts(root) {
+  if (!root?.parentElement) return;
+  let shortcuts = document.getElementById("selectionShortcuts");
+  if (!shortcuts) {
+    shortcuts = document.createElement("nav");
+    shortcuts.id = "selectionShortcuts";
+    shortcuts.className = "selection-shortcuts";
+    shortcuts.setAttribute("aria-label", translate("Scholarship shortcuts"));
+    shortcuts.innerHTML = `<a class="selection-shortcut saved-shortcut" href="bookmarks.php">
+      <span class="selection-shortcut-icon" aria-hidden="true">☆</span><span class="selection-shortcut-copy"><b>Bookmarks</b><small>View saved awards</small></span>
+      <span class="selection-shortcut-count" id="savedShortcutCount" data-live="true">0</span><span class="selection-shortcut-arrow" aria-hidden="true">→</span>
+    </a><a class="selection-shortcut compare-shortcut" href="compare.php">
+      <span class="selection-shortcut-icon" aria-hidden="true">⇄</span><span class="selection-shortcut-copy"><b>Compare</b><small>Open comparison</small></span>
+      <span class="selection-shortcut-count" id="compareShortcutCount" data-live="true">0 / 3</span><span class="selection-shortcut-arrow" aria-hidden="true">→</span>
+    </a>`;
+    root.parentElement.insertBefore(shortcuts, root);
+    translateContent(shortcuts);
+  } else if (shortcuts.parentElement !== root.parentElement) {
+    root.parentElement.insertBefore(shortcuts, root);
+  }
+  updateSelectionShortcuts();
+}
+
+let selectionToastTimer = 0;
+function showSelectionToast(type, added) {
+  let toast = document.getElementById("selectionToast");
+  if (!toast) {
+    toast = document.createElement("div");
+    toast.id = "selectionToast";
+    toast.className = "selection-toast";
+    toast.setAttribute("role", "status");
+    toast.setAttribute("aria-live", "polite");
+    document.body.appendChild(toast);
+  }
+  const bookmark = type === "bookmark";
+  const message = bookmark
+    ? (added ? "Added to saved scholarships" : "Removed from saved scholarships")
+    : (added ? "Added to comparison" : "Removed from comparison");
+  const action = bookmark ? "View saved awards" : "Open comparison";
+  const href = bookmark ? "bookmarks.php" : "compare.php";
+  toast.innerHTML = `<span>${translate(message)}</span><a href="${href}">${translate(action)} <span aria-hidden="true">→</span></a>`;
+  toast.classList.add("is-visible");
+  window.clearTimeout(selectionToastTimer);
+  selectionToastTimer = window.setTimeout(() => toast.classList.remove("is-visible"), 5200);
+}
+
 function persistCompare() {
   localStorage.setItem(compareKey, JSON.stringify([...compareIds]));
   const badge = document.getElementById("compareCount"); if (badge) badge.textContent = compareIds.size;
+  updateSelectionShortcuts();
 }
 function refreshFeatureCounts() {
   const saved = document.getElementById("bookmarkCount"); if (saved) saved.textContent = savedIds.size;
   persistCompare();
+  updateSelectionShortcuts();
 }
 async function toggleBookmark(id, button) {
   const token = document.querySelector('meta[name="csrf-token"]')?.content || "";
@@ -422,18 +538,22 @@ async function toggleBookmark(id, button) {
     if (document.body.dataset.page === "bookmarks") renderSaved();
     else { button.classList.toggle("is-saved", result.saved); button.setAttribute("aria-pressed", String(result.saved)); button.textContent = result.saved ? "★" : "☆"; button.title = result.saved ? "Remove bookmark" : "Save scholarship"; }
     refreshFeatureCounts();
+    showSelectionToast("bookmark", result.saved);
   } catch (error) { window.alert(error.message); }
   finally { button.disabled = false; }
 }
 function bindCardTools(root) {
+  ensureSelectionShortcuts(root);
   root.querySelectorAll("[data-bookmark]").forEach(button => button.addEventListener("click", () => toggleBookmark(Number(button.dataset.bookmark), button)));
   root.querySelectorAll("[data-compare]").forEach(button => button.addEventListener("click", () => {
     const id = Number(button.dataset.compare);
-    if (compareIds.has(id)) compareIds.delete(id);
+    const added = !compareIds.has(id);
+    if (!added) compareIds.delete(id);
     else if (compareIds.size >= 3) { window.alert("Compare up to three scholarships at a time."); return; }
     else compareIds.add(id);
     persistCompare();
     document.querySelectorAll(`[data-compare="${id}"]`).forEach(control => { const active = compareIds.has(id); control.classList.toggle("is-selected", active); control.setAttribute("aria-pressed", String(active)); });
+    showSelectionToast("compare", added);
   }));
 }
 
@@ -498,31 +618,152 @@ function renderGapAnalyzer() {
 }
 function initChatbot() {
   if (document.getElementById("scholar-chat")) return;
-  const wrapper = document.createElement("div"); wrapper.id = "scholar-chat"; wrapper.className = "scholar-chat";
-  wrapper.innerHTML = `<section class="chat-panel" id="chatPanel" hidden aria-label="Scholarship assistant"><header><span class="chat-avatar">✦</span><div><b>ScholarSearch assistant</b><small>Answers from your scholarship list</small></div><button type="button" class="chat-close" aria-label="Close assistant">×</button></header><div class="chat-log" id="chatLog" aria-live="polite"><p class="chat-message bot">Hi! Ask me about matches, eligibility, deadlines, or a scholarship by name.</p></div><form id="chatForm"><input id="chatInput" placeholder="Ask about scholarships…" autocomplete="off" required><button aria-label="Send message">↑</button></form></section><button type="button" id="chatToggle" class="chat-toggle" aria-label="Open scholarship assistant"><span>✦</span><b>Ask ScholarSearch</b></button>`;
+  const chatHistory = [];
+  let busy = false;
+  const wrapper = document.createElement("div");
+  wrapper.id = "scholar-chat";
+  wrapper.className = "scholar-chat";
+  wrapper.innerHTML = `<section class="chat-panel" id="chatPanel" hidden aria-label="Scholarship assistant">
+    <header>
+      <span class="chat-avatar">✦</span>
+      <div>
+        <b>ScholarSearch assistant</b>
+        <small>AI-powered · grounded in your scholarship list</small>
+      </div>
+      <button type="button" class="chat-close" aria-label="Close assistant">×</button>
+    </header>
+    <div class="chat-log" id="chatLog" aria-live="polite">
+      <p class="chat-message bot">Hi! Ask me about matches, eligibility, deadlines, funding, or a scholarship by name. I use your profile and the live scholarship catalogue.</p>
+      <div class="chat-suggestions" id="chatSuggestions">
+        <button type="button" data-q="What scholarships match my profile?">Matches for me</button>
+        <button type="button" data-q="Which deadlines are coming soon?">Upcoming deadlines</button>
+        <button type="button" data-q="How can I improve my eligibility?">Improve eligibility</button>
+      </div>
+    </div>
+    <form id="chatForm">
+      <input id="chatInput" placeholder="Ask about scholarships…" autocomplete="off" required maxlength="1500">
+      <button type="submit" aria-label="Send message" id="chatSendBtn">↑</button>
+    </form>
+  </section>
+  <button type="button" id="chatToggle" class="chat-toggle" aria-label="Open scholarship assistant"><span>✦</span><b>Ask ScholarSearch</b></button>`;
   document.body.append(wrapper);
   translateContent(wrapper);
+
   const panel = document.getElementById("chatPanel");
-  document.getElementById("chatToggle").addEventListener("click", () => { panel.hidden = !panel.hidden; if (!panel.hidden) document.getElementById("chatInput").focus(); });
-  wrapper.querySelector(".chat-close").addEventListener("click", () => { panel.hidden = true; });
-  document.getElementById("chatForm").addEventListener("submit", (event) => {
-    event.preventDefault(); const field = document.getElementById("chatInput"), question = field.value.trim(); if (!question) return;
-    addMessage("user", question); field.value = "";
-    const q = question.toLowerCase(); let answer;
-    const matches = findMatches(profile);
-    if (/deadline|closing|close soon/.test(q)) {
-      const soon = scholarships.filter(s => daysLeft(s.deadline) >= 0).sort((a,b) => new Date(a.deadline)-new Date(b.deadline)).slice(0,3);
-      answer = soon.length ? `Upcoming deadlines: ${soon.map(s => `${s.name} (${s.deadline})`).join(" · ")}.` : "I could not find an upcoming deadline in the current list.";
-    } else if (/eligible|match|recommend|suggest|fit/.test(q)) {
-      answer = matches.qualified.length ? `Your profile currently matches ${matches.qualified.length} scholarships. A strong match is ${matches.qualified[0].name} from ${matches.qualified[0].provider}. You can refine this in Finder.` : "I do not see a current match yet. Check Almost there or use the eligibility gap analyzer to see the next requirements to work toward.";
-    } else {
-      const terms = q.split(/\s+/).filter(word => word.length > 2);
-      const found = scholarships.filter(s => terms.some(word => `${s.name} ${s.provider} ${s.description}`.toLowerCase().includes(word))).slice(0,3);
-      answer = found.length ? `I found: ${found.map(s => `${s.name} (${tk(s.amount_bdt)}, deadline ${s.deadline})`).join(" · ")}.` : "I can help with scholarship matches, eligibility, deadlines, funding amounts, and award names. Try asking “What matches my profile?”";
-    }
-    window.setTimeout(() => addMessage("bot", answer), 180);
+  const log = document.getElementById("chatLog");
+  const field = document.getElementById("chatInput");
+  const sendBtn = document.getElementById("chatSendBtn");
+
+  document.getElementById("chatToggle").addEventListener("click", () => {
+    panel.hidden = !panel.hidden;
+    if (!panel.hidden) field.focus();
   });
-  function addMessage(type, text) { const p = document.createElement("p"); p.className = `chat-message ${type}`; p.textContent = text; const log = document.getElementById("chatLog"); log.append(p); log.scrollTop = log.scrollHeight; }
+  wrapper.querySelector(".chat-close").addEventListener("click", () => { panel.hidden = true; });
+
+  log.querySelectorAll("#chatSuggestions button").forEach(btn => {
+    btn.addEventListener("click", () => {
+      field.value = btn.dataset.q || btn.textContent;
+      document.getElementById("chatForm").requestSubmit();
+    });
+  });
+
+  document.getElementById("chatForm").addEventListener("submit", async (event) => {
+    event.preventDefault();
+    const question = field.value.trim();
+    if (!question || busy) return;
+    busy = true;
+    sendBtn.disabled = true;
+    field.disabled = true;
+    const suggestions = document.getElementById("chatSuggestions");
+    if (suggestions) suggestions.remove();
+
+    addMessage("user", question);
+    field.value = "";
+    const typing = addTyping();
+
+    try {
+      const answer = await askAssistant(question, chatHistory);
+      typing.remove();
+      addMessage("bot", answer);
+      chatHistory.push({ role: "user", content: question });
+      chatHistory.push({ role: "assistant", content: answer });
+      if (chatHistory.length > 12) chatHistory.splice(0, chatHistory.length - 12);
+    } catch (err) {
+      typing.remove();
+      const fallback = localFallbackAnswer(question);
+      if (window.console) console.warn("AI unavailable:", err && err.message);
+      addMessage("bot", fallback);
+    } finally {
+      busy = false;
+      sendBtn.disabled = false;
+      field.disabled = false;
+      field.focus();
+    }
+  });
+
+  function addMessage(type, text) {
+    const p = document.createElement("p");
+    p.className = `chat-message ${type}`;
+    p.textContent = text;
+    log.append(p);
+    log.scrollTop = log.scrollHeight;
+    return p;
+  }
+
+  function addTyping() {
+    const p = document.createElement("p");
+    p.className = "chat-message bot chat-typing";
+    p.innerHTML = `<span></span><span></span><span></span>`;
+    log.append(p);
+    log.scrollTop = log.scrollHeight;
+    return p;
+  }
+
+  async function askAssistant(question, history) {
+    const res = await fetch("api/chat.php", {
+      method: "POST",
+      headers: { "Content-Type": "application/json", "Accept": "application/json" },
+      body: JSON.stringify({
+        message: question,
+        history: history.slice(-8),
+        profile: {
+          cgpa: profile.cgpa,
+          department: profile.department,
+          needBased: profile.needBased,
+          gender: profile.gender
+        }
+      })
+    });
+    const rawText = await res.text();
+    let data = {};
+    try { data = JSON.parse(rawText); } catch (_) {
+      throw new Error(res.ok ? "Invalid JSON from assistant" : `HTTP ${res.status}: ${rawText.slice(0, 160) || "empty response"}`);
+    }
+    if (!res.ok) throw new Error(data.error || `HTTP ${res.status}`);
+    if (!data.reply) throw new Error("Empty reply");
+    return data.reply;
+  }
+
+  function localFallbackAnswer(question) {
+    const q = question.toLowerCase();
+    const matches = findMatches(profile);
+    if (/deadline|closing|close soon|শেষ তারিখ/.test(q)) {
+      const soon = scholarships.filter(s => daysLeft(s.deadline) >= 0).sort((a, b) => new Date(a.deadline) - new Date(b.deadline)).slice(0, 3);
+      return soon.length
+        ? `Upcoming deadlines: ${soon.map(s => `${s.name} (${s.deadline})`).join(" · ")}.`
+        : "I could not find an upcoming deadline in the current list.";
+    }
+    if (/eligible|match|recommend|suggest|fit|মিল|যোগ্য/.test(q)) {
+      return matches.qualified.length
+        ? `Your profile currently matches ${matches.qualified.length} scholarships. A strong match is ${matches.qualified[0].name} from ${matches.qualified[0].provider}. You can refine this in Finder.`
+        : "I do not see a current match yet. Check Almost there or use the eligibility gap analyzer to see the next requirements to work toward.";
+    }
+    const terms = q.split(/\s+/).filter(word => word.length > 2);
+    const found = scholarships.filter(s => terms.some(word => `${s.name} ${s.provider} ${s.description}`.toLowerCase().includes(word))).slice(0, 3);
+    return found.length
+      ? `I found: ${found.map(s => `${s.name} (${tk(s.amount_bdt)}, deadline ${s.deadline})`).join(" · ")}.`
+      : "I can help with scholarship matches, eligibility, deadlines, funding amounts, and award names. Try asking “What matches my profile?”";
+  }
 }
 
 function renderDashboard() {

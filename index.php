@@ -2,12 +2,8 @@
 $page = 'home';
 $pageTitle = 'ScholarSearch — Find scholarships made for you';
 $pageDesc = 'Enter your CGPA and department to see the scholarships you qualify for and the ones you almost do.';
-try {
-  require_once __DIR__ . '/includes/db.php';
-  $data = db()->query('SELECT id, name, provider, min_cgpa, department, need_based, gender, amount_bdt, deadline, description FROM scholarships')->fetchAll();
-} catch (Throwable $e) {
-  $data = json_decode(file_get_contents(__DIR__ . '/data/scholarships.json'), true) ?: [];
-}
+require_once __DIR__ . '/includes/db.php';
+$data = db()->query('SELECT id, name, provider, min_cgpa, department, need_based, gender, amount_bdt, deadline, description FROM scholarships')->fetchAll();
 $count = count($data);
 $providers = array_values(array_unique(array_map(fn($s) => $s['provider'], $data)));
 $providerCount = count($providers);

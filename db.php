@@ -1,29 +1,26 @@
 <?php
 declare(strict_types=1);
 
+require_once __DIR__ . '/config.php';
+
 function db(): PDO
 {
     static $pdo = null;
     if ($pdo instanceof PDO) return $pdo;
 
-    $host = getenv('SS_DB_HOST') ?: '127.0.0.1';
-    $name = getenv('SS_DB_NAME') ?: 'scholarship_db';
-    $user = getenv('SS_DB_USER') ?: 'root';
-    $pass = getenv('SS_DB_PASSWORD') ?: '';
+    $host = SS_DB_HOST;
+    $port = SS_DB_PORT;
+    $name = SS_DB_NAME;
+    $user = SS_DB_USER;
+    $pass = SS_DB_PASSWORD;
     if (!preg_match('/^[A-Za-z0-9_]+$/', $name)) throw new RuntimeException('SS_DB_NAME must contain only letters, numbers and underscores.');
-    $dsn = "mysql:host={$host};dbname={$name};charset=utf8mb4";
+    if (!preg_match('/^[0-9]+$/', (string)$port)) throw new RuntimeException('SS_DB_PORT must be numeric.');
+    $dsn = "mysql:host={$host};port={$port};dbname={$name};charset=utf8mb4";
     $options = [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION, PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC, PDO::ATTR_EMULATE_PREPARES => false];
     try {
         $pdo = new PDO($dsn, $user, $pass, $options);
     } catch (PDOException $e) {
-        if ((int)($e->errorInfo[1] ?? 0) !== 1049) throw $e;
-        try {
-            $server = new PDO("mysql:host={$host};charset=utf8mb4", $user, $pass, $options);
-            $server->exec("CREATE DATABASE IF NOT EXISTS `{$name}` CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci");
-            $pdo = new PDO($dsn, $user, $pass, $options);
-        } catch (Throwable $setupError) {
-            throw new RuntimeException("MySQL database '{$name}' is missing and could not be created. Start MySQL and allow this database user to create databases, or create '{$name}' in phpMyAdmin.", 0, $setupError);
-        }
+        throw new RuntimeException("Could not connect to MySQL database '{$name}' on {$host}. Import database/scholarship_db.sql in phpMyAdmin (or local MySQL) and check includes/config.php.", 0, $e);
     }
     ensure_app_tables($pdo);
     return $pdo;
@@ -78,13 +75,13 @@ function ensure_app_tables(PDO $pdo): void
         $dump = __DIR__ . '/../database/scholarship_db.sql';
         $sql = is_file($dump) ? file_get_contents($dump) : false;
         if (!is_string($sql) || $sql === '') {
-            throw new RuntimeException('Scholarship data is not installed. Import database/scholarship_db.sql into the scholarship_db database.', 0, $e);
+            throw new RuntimeException('Scholarship data is not installed. Import database/scholarship_db.sql into your MySQL database in phpMyAdmin.', 0, $e);
         }
         try {
             run_sql_dump($pdo, $sql);
             $pdo->query('SELECT 1 FROM scholarships LIMIT 1');
         } catch (Throwable $importError) {
-            throw new RuntimeException('Could not install the supplied scholarship data automatically. Import database/scholarship_db.sql into the scholarship_db database in phpMyAdmin.', 0, $importError);
+            throw new RuntimeException('Could not install the supplied scholarship data automatically. Import database/scholarship_db.sql into your MySQL database in phpMyAdmin.', 0, $importError);
         }
     }
     $pdo->exec("CREATE TABLE IF NOT EXISTS app_users (

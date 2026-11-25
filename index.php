@@ -2,7 +2,12 @@
 $page = 'home';
 $pageTitle = 'ScholarSearch — Find scholarships made for you';
 $pageDesc = 'Enter your CGPA and department to see the scholarships you qualify for and the ones you almost do.';
-$data = json_decode(file_get_contents(__DIR__ . '/data/scholarships.json'), true);
+try {
+  require_once __DIR__ . '/includes/db.php';
+  $data = db()->query('SELECT id, name, provider, min_cgpa, department, need_based, gender, amount_bdt, deadline, description FROM scholarships')->fetchAll();
+} catch (Throwable $e) {
+  $data = json_decode(file_get_contents(__DIR__ . '/data/scholarships.json'), true) ?: [];
+}
 $count = count($data);
 $providers = array_values(array_unique(array_map(fn($s) => $s['provider'], $data)));
 $providerCount = count($providers);
@@ -38,21 +43,9 @@ require __DIR__ . '/includes/header.php';
   </svg>
   <div class="container hero-grid">
     <div>
-      <p class="kicker rise">✦ তোমার স্বপ্ন, তোমার স্কলারশিপ</p>
-      <h1 class="rise" style="--d:.1s">Every scholarship <em class="shine">you</em>
-        <span class="word-deserve">
-          <svg class="constellation" viewBox="0 0 280 90" aria-hidden="true">
-            <path class="draw" fill="none" stroke="var(--secondary)" stroke-width="1.4" d="M8 70 48 28 110 58 168 18 230 46 268 8"/>
-            <circle cx="8" cy="70" r="3.2" fill="var(--secondary)"/>
-            <circle cx="48" cy="28" r="3.2" fill="var(--secondary)"/>
-            <circle cx="110" cy="58" r="3.2" fill="var(--secondary)"/>
-            <circle cx="168" cy="18" r="3.2" fill="var(--secondary)"/>
-            <circle cx="230" cy="46" r="3.2" fill="var(--secondary)"/>
-            <circle cx="268" cy="8" r="3.2" fill="var(--secondary)"/>
-          </svg>
-          <em class="shine">deserve</em>
-        </span>, found in seconds.</h1>
-      <p class="lead rise" style="--d:.2s">Tell us your CGPA and department. We check <?= (int)$count ?> awards from <?= (int)$providerCount ?> providers, explain why each fits, and show the ones you're just a step away from.</p>
+      <p class="kicker rise"><span data-language-en="✦ Scholarships for your next chapter" data-language-bn="✦ আপনার পরবর্তী অধ্যায়ের জন্য বৃত্তি">✦ Scholarships for your next chapter</span></p>
+      <h1 class="rise" style="--d:.1s"><span data-language-en="Find scholarships" data-language-bn="আপনার জন্য">Find scholarships</span> <em class="shine" data-language-en="that fit your future." data-language-bn="উপযুক্ত বৃত্তি খুঁজুন।">that fit your future.</em></h1>
+      <p class="lead rise" id="homeLead" data-awards="<?= (int)$count ?>" data-providers="<?= (int)$providerCount ?>" style="--d:.2s">Share your CGPA and department to explore <?= (int)$count ?> scholarships from <?= (int)$providerCount ?> providers. See why each one fits, plus the opportunities within reach.</p>
       <div class="hero-actions rise" style="--d:.3s">
         <a class="btn btn-gold" href="finder.php">Find my scholarships</a>
         <a class="btn btn-ghost" href="how-it-works.php">How it works</a>
@@ -76,7 +69,7 @@ require __DIR__ . '/includes/header.php';
         </div>
         <div class="moon-core"></div>
         <div class="orbit-label">
-          <div class="n" id="orbitMatches">0</div>
+          <div class="n" id="orbitMatches">—</div>
           <div class="t">matches</div>
         </div>
         <div class="orbit-cards" id="orbitCards"></div>

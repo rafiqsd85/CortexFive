@@ -1,4 +1,4 @@
-# Scholarship Finder
+# ScholarSearch
 
 <p align="center">
   <strong>CortexFive</strong> · Beginner AI Hackathon 2026<br>
@@ -21,7 +21,7 @@
   <em>Enter your CGPA, department and financial needs — discover scholarships you may qualify for, with an AI-generated explanation for every match.</em>
 </p>
 
-**Live Demo:** [Scholarship Finder](https://scholarsearchbd.freehosting.dev/?i=1)
+**Live Demo:** [ScholarSearch](https://scholarsearchbd.freehosting.dev/?i=1)
 
 ---
 
